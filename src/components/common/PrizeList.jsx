@@ -58,7 +58,7 @@ const prizeData = [
     images: [blockImg1],
   },
   {
-    level: 'District & State Level',
+    level: 'District Level',
     prizes: [
       '**** 1st 46 Rankers will get ****',
       '50 Lakhs Cash',

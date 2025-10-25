@@ -48,7 +48,7 @@ const ClassSelection = () => {
             {/* Header and Tagline */}
             <div className="text-center max-w-3xl mb-6">
                 <h1 className="text-2xl sm:text-3xl font-semibold text-gray-800 whitespace-nowrap">
-                    <span className="block sm:inline">Padho India Scholarship</span>
+                    <span className="block sm:inline">Padho India Free Tuition</span>
                 </h1>
                 <p className="text-sm sm:text-base text-gray-600 mt-2 italic">
                     Achieve your dreams with <span className="font-semibold text-yellow-400">100% free education</span>. <br />
@@ -58,14 +58,14 @@ const ClassSelection = () => {
 
             {/* Class Selection Buttons */}
             <div className="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-6 gap-3 w-full max-w-4xl">
-                {[...Array(12)].map((_, index) => (
+                {[...Array(8)].map((_, index) => (
                     <Button
                         key={index + 1}
                         onClick={() => handleSelectClass(index + 1)}
                         type={selectedClass === index + 1 ? "primary" : "default"}
                         className="h-10 sm:h-12 w-full rounded-md transition-all duration-300 shadow-md text-xs sm:text-sm font-medium"
                     >
-                        Class {index + 1}
+                        Class {index + 5}
                     </Button>
                 ))}
             </div>

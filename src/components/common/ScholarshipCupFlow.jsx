@@ -50,7 +50,7 @@ const ScholarshipCupFlow = () => {
             <div className="w-0.5 h-10 bg-gray-400 my-1" />
 
             <div className="bg-green-100 text-green-700 font-semibold px-4 py-2 rounded shadow">
-             Entry Rs.300/-
+             Entry Rs.100/-
             </div>
             <div className="w-0.5 h-10 bg-gray-400 my-1" />
              <div className="bg-white border border-blue-500 p-3 rounded text-sm sm:text-base w-full text-center">
@@ -63,6 +63,11 @@ const ScholarshipCupFlow = () => {
              <div className="w-0.5 h-10 bg-gray-400 my-1" />
            <div className="bg-white border border-blue-500 p-3 rounded text-sm sm:text-base w-full text-center">
              School & College Level
+            </div>
+            <div className="w-0.5 h-10 bg-gray-400 my-1" />
+
+            <div className="bg-white border border-blue-500 p-3 rounded text-sm sm:text-base w-full text-center">
+             Block Level
             </div>
             <div className="w-0.5 h-10 bg-gray-400 my-1" />
            <div className="bg-white border border-blue-500 p-3 rounded text-sm sm:text-base w-full text-center">
@@ -90,7 +95,7 @@ const ScholarshipCupFlow = () => {
             <div className="w-0.5 h-10 bg-gray-400 my-1" />
 
             <div className="bg-green-100 text-green-700 font-semibold px-4 py-2 rounded shadow">
-             Entry Rs.500/-
+             Entry Rs.200/-
             </div>
             <div className="w-0.5 h-10 bg-gray-400 my-1" />
              <div className="bg-white border border-blue-500 p-3 rounded text-sm sm:text-base w-full text-center">
@@ -103,6 +108,11 @@ const ScholarshipCupFlow = () => {
              <div className="w-0.5 h-10 bg-gray-400 my-1" />
            <div className="bg-white border border-blue-500 p-3 rounded text-sm sm:text-base w-full text-center">
              School & College Level
+            </div>
+             <div className="w-0.5 h-10 bg-gray-400 my-1" />
+
+            <div className="bg-white border border-blue-500 p-3 rounded text-sm sm:text-base w-full text-center">
+             Block Level
             </div>
             <div className="w-0.5 h-10 bg-gray-400 my-1" />
            <div className="bg-white border border-blue-500 p-3 rounded text-sm sm:text-base w-full text-center">
@@ -132,7 +142,7 @@ const ScholarshipCupFlow = () => {
             <div className="w-0.5 h-10 bg-gray-400 my-1" />
 
             <div className="bg-green-100 text-green-700 font-semibold px-4 py-2 rounded shadow">
-             Entry Rs.700/-
+             Entry Rs.300/-
             </div>
             <div className="w-0.5 h-10 bg-gray-400 my-1" />
              <div className="bg-white border border-blue-500 p-3 rounded text-sm sm:text-base w-full text-center">
@@ -145,6 +155,11 @@ const ScholarshipCupFlow = () => {
              <div className="w-0.5 h-10 bg-gray-400 my-1" />
            <div className="bg-white border border-blue-500 p-3 rounded text-sm sm:text-base w-full text-center">
              School & College Level
+            </div>
+             <div className="w-0.5 h-10 bg-gray-400 my-1" />
+
+            <div className="bg-white border border-blue-500 p-3 rounded text-sm sm:text-base w-full text-center">
+             Block Level
             </div>
             <div className="w-0.5 h-10 bg-gray-400 my-1" />
            <div className="bg-white border border-blue-500 p-3 rounded text-sm sm:text-base w-full text-center">

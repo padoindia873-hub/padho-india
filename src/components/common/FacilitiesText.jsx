@@ -46,7 +46,7 @@ const FacilitiesText = () => {
       </div>
 
 
-      <div className="flex flex-col md:flex-row justify-center items-start gap-6 px-6 py-12">
+      {/* <div className="flex flex-col md:flex-row justify-center items-start gap-6 px-6 py-12"> */}
         {/* Gold Card Facilities */}
         {/* <div className="w-full md:w-[400px] bg-gradient-to-r from-blue-500 to-indigo-600 p-8 rounded-lg shadow-lg text-center">
           <h3 className="text-2xl font-bold text-white mb-4">
@@ -67,7 +67,7 @@ const FacilitiesText = () => {
         </div> */}
 
         {/* Membership Card Facilities */}
-        <div className="w-full md:w-[600px] bg-gradient-to-r from-purple-500 to-pink-600 p-8 rounded-lg shadow-lg text-center">
+        {/* <div className="w-full md:w-[600px] bg-gradient-to-r from-purple-500 to-pink-600 p-8 rounded-lg shadow-lg text-center">
           <h3 className="text-2xl font-bold text-white mb-4">
             Membership Card Facilities
           </h3>
@@ -86,10 +86,10 @@ const FacilitiesText = () => {
             <li>9)Free Cancer Counceling.</li>
           </ul>
         </div>
-      </div>
+      </div> */}
 
       {/* School Scholarship Development (Larger width) */}
-      <div className="bg-gradient-to-r from-green-500 to-teal-600 p-8 rounded-lg shadow-lg text-center max-w-xl mx-auto">
+      {/* <div className="bg-gradient-to-r from-green-500 to-teal-600 p-8 rounded-lg shadow-lg text-center max-w-xl mx-auto">
         <h3 className="text-2xl font-bold text-white mb-4">
           School Scholarship Development
         </h3>
@@ -102,14 +102,14 @@ const FacilitiesText = () => {
           <li>5) Higher Study Scholarship</li>
           <li>6) Future Projects on Coaching</li>
         </ul>
-      </div>
+      </div> */}
 
       {/* Gradient Button below School Scholarship Development */}
-      <div className="flex justify-center mt-8">
+      {/* <div className="flex justify-center mt-8">
         <button className="bg-gradient-to-r from-purple-500 to-pink-600 text-white px-6 py-3 shadow-lg hover:bg-gradient-to-r hover:from-purple-600 hover:to-pink-700 transition duration-300">
           View 46 Top School List (State Wise)
         </button>
-      </div>
+      </div> */}
     </div>
   );
 };

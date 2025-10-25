@@ -1,28 +1,28 @@
 import React from 'react'
 
 const images = [
-    { src: "/Assets/wp16.jpg", alt: "Product 1", desc: "1ST Winner will get Rs. 2000" },
+    { src: "/Assets/wp16.jpg", alt: "Product 1", desc: "1ST Winner will get Rs. 5000" },
 ];
 const images1 = [
-    { src: "/Assets/wp16.jpg", alt: "Product 1", desc: "Others top ten winners will get Rs.1000" },
+    { src: "/Assets/wp16.jpg", alt: "Product 1", desc: "Others top ten winners will get Rs.5000" },
 ];
 const Blocklevel = [
-    { src: "/Assets/wp4.jpg", alt: "Product 1", desc: "PRIZE : 1st winner Rs. 50,000/- Scholarship " },
+    { src: "/Assets/wp4.jpg", alt: "Product 1", desc: "PRIZE : 1st winner Rs. 1,00000/- Scholarship " },
 ];
 const Blocklevel1 = [
 
-    { src: "/Assets/wp21.jpg", alt: "Product 2", desc: "Consolation : 2nd to 11th top winner Rs. 10,000/- Scholarship (Each)" },
+    { src: "/Assets/wp21.jpg", alt: "Product 2", desc: "Consolation : 2nd to 13th top winner Rs. 10,000/- Scholarship (Each)" },
 ];
 const Blocklevel2 = [
     { src: "/Assets/wp4.jpg", alt: "Product 3", desc: "Consolation :12nd to 92nd top wonner Rs.5000/-Scholarship(Each)" },
 ];
 
 const Districtlevel = [
-    { src: "/Assets/wp17.jpg", alt: "Product 1", desc: "1st BMW Bike " },
-    { src: "/Assets/wp15.jpg", alt: "Product 2", desc: "2nd KTM Bike" },
-    { src: "/Assets/wp14.jpg", alt: "Product 3", desc: "3rd Pulsar Bike" },
-    { src: "/Assets/wp3.jpg", alt: "Product 3", desc: "4th Scooty " },
-    { src: "/Assets/wp13.jpg", alt: "Product 3", desc: "5th Laptop" },
+    { src: "/Assets/wp17.jpg", alt: "Product 1", desc: "1st BMW Bike + 1,000000" },
+    { src: "/Assets/wp15.jpg", alt: "Product 2", desc: "2nd KTM Bike + 1,000000" },
+    { src: "/Assets/wp14.jpg", alt: "Product 3", desc: "3rd Pulsar Bike + 1,000000" },
+    { src: "/Assets/wp3.jpg", alt: "Product 3", desc: "4th Scooty + 5,00000 Remaining All Candidate will get 5,00000 cash with each and every one" },
+    // { src: "/Assets/wp13.jpg", alt: "Product 3", desc: "5th Laptop + 1,000000" },
 
 ];
 
@@ -45,12 +45,12 @@ const STATElevel2 = [
 ];
 
 const Allevel = [
-    { src: "/Assets/k1.jpg", alt: "Product 1", desc: "1ST ROUND 500 LOSER WILL GET 1 CRORE CASH FOR HIGHER STUDY " },
-    { src: "/Assets/wp4.jpg", alt: "Product 2", desc: "2nd Round 40 LOSER WILL GET 2 CRORE CASH " },
-    { src: "/Assets/wp4.jpg", alt: "Product 2", desc: "2nd Round 40 LOSER WILL GET  3BHK FLAT" },
-    { src: "/Assets/k2.jpg", alt: "Product 3", desc: "FINAL ROUND 9 LOSER WILL GET 4 CRORE CASH " },
-    { src: "/Assets/k3.jpg", alt: "Product 3", desc: "FINAL ROUND 9 LOSER WILL GET 4 BHK FLAT " },
-    { src: "/Assets/k5.jpg", alt: "Product 3", desc: "FINAL ROUND 9 LOSER WILL GET  MARCEDEZ BENZ CAR" },
+    { src: "/Assets/k1.jpg", alt: "Product 1", desc: "1ST ROUND 100 LOSERS WILL GET 1 CRORE CASH FOR HIGHER STUDY " },
+    { src: "/Assets/wp4.jpg", alt: "Product 2", desc: "2nd Round 56 LOSERS WILL GET 2 CRORE CASH " },
+    // { src: "/Assets/wp4.jpg", alt: "Product 2", desc: "2nd Round 40 LOSER WILL GET  3BHK FLAT" },
+    // { src: "/Assets/k2.jpg", alt: "Product 3", desc: "FINAL ROUND 9 LOSER WILL GET 4 CRORE CASH " },
+    // { src: "/Assets/k3.jpg", alt: "Product 3", desc: "FINAL ROUND 9 LOSER WILL GET 4 BHK FLAT " },
+    // { src: "/Assets/k5.jpg", alt: "Product 3", desc: "FINAL ROUND 9 LOSER WILL GET  MARCEDEZ BENZ CAR" },
 ];
 
 const SecoAllevel = [
@@ -147,7 +147,7 @@ const PrizeList = () => {
             </div>
 
             {/* STATE LEVEL */}
-            <div className="mt-16">
+            {/* <div className="mt-16">
                 <h1 className="text-2xl sm:text-3xl font-bold text-gray-800 mb-4">STATE LEVEL (Offline)</h1>
                 <p className="text-base text-gray-600 mb-4">COMPETITION : IQ AND G.K. BASED</p>
                 <p className="text-base text-gray-600 mb-6"><strong>PRIZE:</strong> Each of the 24 members will go to at the next level (Final Level)</p>
@@ -170,7 +170,7 @@ const PrizeList = () => {
                         </div>
                     ))}
                 </div>
-            </div>
+            </div> */}
 
             {/* DISTRICT LEVEL */}
             <div className="mt-16">
@@ -186,7 +186,7 @@ const PrizeList = () => {
                     ))}
                 </div>
 
-                <p className="text-base text-gray-600 mt-10 mb-6"><strong>2nd Prize:</strong> Remaining person will receive a prize.</p>
+                {/* <p className="text-base text-gray-600 mt-10 mb-6"><strong>2nd Prize:</strong> Remaining person will receive a prize.</p>
                 <div className="flex flex-wrap justify-center gap-5">
                     {Districtlevel2.map((img, index) => (
                         <div className="max-w-xs text-center" key={index}>
@@ -194,7 +194,7 @@ const PrizeList = () => {
                             <p className="mt-2 text-sm text-gray-700">{img.desc}</p>
                         </div>
                     ))}
-                </div>
+                </div> */}
             </div>
 
             {/* BLOCK LEVEL */}
@@ -222,7 +222,7 @@ const PrizeList = () => {
                     ))}
                 </div>
 
-                <p className="text-base text-gray-600 mt-10 mb-6"><strong>3rd Prize:</strong></p>
+                {/* <p className="text-base text-gray-600 mt-10 mb-6"><strong>3rd Prize:</strong></p>
                 <div className="flex flex-wrap justify-center gap-5">
                     {Blocklevel2.map((img, index) => (
                         <div className="max-w-xs text-center" key={index}>
@@ -230,7 +230,7 @@ const PrizeList = () => {
                             <p className="mt-2 text-sm text-gray-700">{img.desc}</p>
                         </div>
                     ))}
-                </div>
+                </div> */}
             </div>
 
             {/* SCHOOL AND COLLEGE LEVEL */}
@@ -247,15 +247,15 @@ const PrizeList = () => {
                     ))}
                 </div>
 
-                <p className="text-base text-gray-600 mt-10 mb-6"><strong>2nd Prize:</strong></p>
-                <div className="flex flex-wrap justify-center gap-5">
+                {/* <p className="text-base text-gray-600 mt-10 mb-6"><strong>2nd Prize:</strong></p> */}
+                {/* <div className="flex flex-wrap justify-center gap-5">
                     {images1.map((img, index) => (
                         <div className="max-w-xs text-center" key={index}>
                             <img src={img.src} alt={img.alt} className="w-full h-52 object-cover rounded-lg shadow-md hover:scale-105 transition-transform duration-300 cursor-pointer" />
                             <p className="mt-2 text-sm text-gray-700">{img.desc}</p>
                         </div>
                     ))}
-                </div>
+                </div> */}
             </div>
 
             <p className="text-sm text-gray-500 mt-12 max-w-2xl mx-auto">

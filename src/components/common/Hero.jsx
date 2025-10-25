@@ -24,8 +24,8 @@ const Hero = () => {
 
           {/* Updated Description */}
           <p className="text-gray-300 text-sm md:text-lg lg:text-xl mb-4 leading-relaxed font-medium">
-            4092 Candidates Will Become <span className="text-yellow-400 font-semibold">Crorepatis</span>.<br />
-            Over 10 Lakh Students will get <span className="text-blue-400 font-semibold">Scholarship</span>...<br />
+            159 Candidates Will Become <span className="text-yellow-400 font-semibold">Crorepatis</span>.<br />
+            Over 2 Lakh Students will get <span className="text-blue-400 font-semibold">Scholarship</span>...<br />
             And Millions of Students will make career by <span className="text-green-400 font-semibold">Higher study</span>.
           </p>
 
