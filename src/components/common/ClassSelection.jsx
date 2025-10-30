@@ -71,7 +71,7 @@ const ClassSelection = () => {
             </div>
 
             {/* Fee Display */}
-            <div className="text-center mt-10">
+            {/* <div className="text-center mt-10">
                 <p className="text-sm sm:text-base font-medium text-gray-700 inline relative">
                     <span className="line-through">₹9999</span>
                 </p>
@@ -81,10 +81,10 @@ const ClassSelection = () => {
                 <p className="text-gray-700 text-xs sm:text-sm mt-2 font-semibold">
                     Limited seats available. Enroll now and secure your future.
                 </p>
-            </div>
+            </div> */}
 
             {/* Enroll Button */}
-            <div className="text-center mt-4 mb-6">
+            {/* <div className="text-center mt-4 mb-6">
                 <Button
                     onClick={handleEnroll}
                     className="bg-blue-600 hover:bg-blue-700 text-white py-2 px-8 rounded-md text-sm sm:text-base 
@@ -92,7 +92,7 @@ const ClassSelection = () => {
                 >
                     Enroll Now
                 </Button>
-            </div>
+            </div> */}
         </div>
     );
 };

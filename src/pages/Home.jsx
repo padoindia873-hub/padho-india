@@ -29,10 +29,10 @@ const Home = () => {
         
         <Facilities/>
         <ClassSelection/>
-        <ScholarshipCupFlow/>
+        {/* <ScholarshipCupFlow/> */}
         <EducationOverview/>
-        <PrizeList/>
-        <Syllabus/>
+        {/* <PrizeList/> */}
+        {/* <Syllabus/> */}
         <ScholarshipHighlights/>
         <ImageGallery/>
         

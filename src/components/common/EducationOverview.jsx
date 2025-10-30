@@ -4,7 +4,7 @@ import { Card } from 'antd'
 const educationSections = [
   {
     title: 'Higher Education Scholarship',
-    points: ['Registration Form', 'About All Degrees'],
+    points: ['Registration Form', 'About All Degrees', 'Scholarship Record', 'Event Live Streaming'],
     mode: 'Online Info',
   },
   // {
@@ -67,6 +67,19 @@ const EducationOverview = () => {
                 </div>
               ))}
             </div>
+
+<div className="flex flex-col justify-center items-center mt-8">        {/* <h3 className="font-bold text-2xl mb-4">Live Streaming</h3> */}
+        <iframe
+          width="640"
+          height="360"
+          src="https://www.youtube.com/embed/yopSxfaegsQ"
+          title="YouTube video player"
+          className="rounded-2xl shadow-lg"
+          frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        ></iframe>
+      </div>
           </Card>
         ))}
       </div>
@@ -75,3 +88,4 @@ const EducationOverview = () => {
 }
 
 export default EducationOverview
+//https://youtu.be/yopSxfaegsQ
