@@ -7,7 +7,7 @@ import PadhoIndiaLogo from "../../assets/padho_India_logo.png";
 const Hero = () => {
   return (
     <div
-      className="relative h-[170vh] bg-no-repeat bg-cover bg-center"
+      className="relative h-[200vh] bg-no-repeat bg-cover bg-center"
       style={{
         backgroundImage: `url(${heroImage})`,
         backgroundSize: "cover",
