@@ -7,7 +7,7 @@ const VideoPlayer = () => {
       <div className="flex flex-col justify-center items-center">
         <h3 className="font-bold text-2xl mb-4">PADHO INDIA SCHOLARSHIP</h3>
         <iframe
-          width="640"
+          width="450"
           height="360"
           src="https://www.youtube.com/embed/LBLPIdj3Z5Y"
           title="YouTube video player"
@@ -22,7 +22,7 @@ const VideoPlayer = () => {
       <div className="flex flex-col justify-center items-center">
         <h3 className="font-bold text-2xl mb-4">PADHO INDIA SCHOLARSHIP</h3>
         <iframe
-          width="640"
+          width="450"
           height="360"
           src="https://www.youtube.com/embed/n2GaqHRRUcU"
           title="YouTube video player"
